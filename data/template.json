@@ -1,0 +1,299 @@
+{
+  "menu": [
+    {
+      "color": "#FFBA08",
+      "name": "social",
+      "order": 2,
+      "shortcut": "s",
+      "weight": 100,
+      "menu": [
+        {
+          "href": "https://gmail.com",
+          "id": "gmail",
+          "name": "gmail",
+          "shortcut": "g",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://gmail.com"
+        },
+        {
+          "href": "https://facebook.com",
+          "id": "facebook",
+          "name": "facebook",
+          "shortcut": "f",
+          "weight": 101,
+          "order": 0,
+          "action": "href https://facebook.com"
+        },
+        {
+          "href": "https://messenger.com",
+          "id": "messenger",
+          "name": "messenger",
+          "shortcut": "m",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://messenger.com"
+        },
+        {
+          "color": "#53749c",
+          "hide": false,
+          "href": "https://twitter.com",
+          "id": "Twitter",
+          "name": "twitter",
+          "remote": false,
+          "shortcut": "t",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://twitter.com"
+        },
+        {
+          "color": "#7ed321",
+          "hide": false,
+          "href": "https://web.whatsapp.com",
+          "id": "whatsapp",
+          "name": "whatsapp",
+          "remote": false,
+          "shortcut": "w",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://web.whatsapp.com"
+        }
+      ]
+    },
+    {
+      "color": "#FF6700",
+      "name": "media",
+      "order": 1,
+      "shortcut": "m",
+      "weight": 100,
+      "menu": [
+        {
+          "href": "http://animelab.com",
+          "id": "animelab",
+          "name": "animelab",
+          "order": 10,
+          "shortcut": "a",
+          "weight": 119,
+          "action": "href http://animelab.com"
+        },
+        {
+          "href": "https://youtube.com",
+          "id": "youtube",
+          "name": "youtube",
+          "shortcut": "y",
+          "weight": 102,
+          "order": 0,
+          "action": "href https://youtube.com"
+        },
+        {
+          "href": "https://netflix.com",
+          "id": "netflix",
+          "name": "netflix",
+          "shortcut": "n",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://netflix.com"
+        },
+        {
+          "category": "media",
+          "color": "#B4D2E7",
+          "href": "https://primevideo.com",
+          "id": "prime",
+          "name": "prime",
+          "shortcut": "r",
+          "weight": 163,
+          "order": 0,
+          "action": "href https://primevideo.com"
+        }
+      ]
+    },
+    {
+      "color": "#C0C0C0",
+      "name": "admin",
+      "order": 3,
+      "shortcut": "a",
+      "weight": 100,
+      "menu": [
+        {
+          "href": "https://calendar.google.com",
+          "id": "calendar",
+          "name": "calendar",
+          "shortcut": "c",
+          "weight": 134,
+          "order": 0,
+          "action": "href https://calendar.google.com"
+        },
+        {
+          "category": "admin",
+          "color": "#E9D758",
+          "hide": true,
+          "href": "https://calendar.google.com/calendar/r/agenda",
+          "id": "agenda",
+          "name": "agenda",
+          "shortcut": "a",
+          "weight": 107,
+          "order": 0,
+          "action": "href https://calendar.google.com/calendar/r/agenda"
+        },
+        {
+          "color": "#74ac36",
+          "name": "doc",
+          "order": 0,
+          "shortcut": "d",
+          "menu": [
+            {
+              "color": "#4584be",
+              "hide": false,
+              "href": "https://docs.google.com/document/u/0",
+              "id": "google-docs",
+              "name": "google docs",
+              "shortcut": "g",
+              "weight": 102,
+              "order": 0,
+              "action": "href https://docs.google.com/document/u/0"
+            },
+            {
+              "category": "admin",
+              "color": "#F05D5E",
+              "hide": false,
+              "href": "https://toggl.com/app/timer",
+              "id": "toggl",
+              "name": "toggl",
+              "shortcut": "t",
+              "weight": 100,
+              "order": 0,
+              "action": "href https://toggl.com/app/timer"
+            }
+          ]
+        },
+        {
+          "color": "#23a7ac",
+          "hide": false,
+          "href": "https://trello.com",
+          "id": "trello",
+          "name": "trello",
+          "remote": false,
+          "shortcut": "t",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://trello.com"
+        }
+      ]
+    },
+    {
+      "color": "#C28CAE",
+      "name": "development",
+      "order": 8,
+      "shortcut": "v",
+      "weight": 100,
+      "menu": [
+        {
+          "href": "https://github.com",
+          "id": "github",
+          "name": "github",
+          "shortcut": "g",
+          "weight": 140,
+          "order": 0,
+          "action": "href https://github.com"
+        },
+        {
+          "href": "https://bitbucket.com",
+          "id": "bitbucket",
+          "name": "bitbucket",
+          "shortcut": "b",
+          "weight": 131,
+          "order": 0,
+          "action": "href https://bitbucket.com"
+        },
+        {
+          "color": "#1d4f94",
+          "hide": false,
+          "href": "https://cloud.digitalocean.com/login",
+          "id": "digital-ocean",
+          "name": "digital ocean",
+          "shortcut": "d",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://cloud.digitalocean.com/login"
+        }
+      ]
+    },
+    {
+      "color": "#40c9c9",
+      "name": "shopping",
+      "shortcut": "h",
+      "weight": 100,
+      "menu": [
+        {
+          "color": "#df8826",
+          "hide": false,
+          "href": "https://amazon.com.au",
+          "id": "amazon",
+          "name": "amazon",
+          "shortcut": "a",
+          "weight": 109,
+          "order": 0,
+          "action": "href https://amazon.com.au"
+        },
+        {
+          "color": "#83ab60",
+          "hide": false,
+          "href": "https://ebay.com.au",
+          "id": "ebay",
+          "name": "ebay",
+          "shortcut": "e",
+          "weight": 103,
+          "order": 0,
+          "action": "href https://ebay.com.au"
+        },
+        {
+          "color": "#4a90e2",
+          "hide": false,
+          "href": "https://www.facebook.com/marketplace/melbourne",
+          "id": "FB-Marketplace",
+          "name": "fb marketplace",
+          "remote": false,
+          "shortcut": "m",
+          "weight": 100,
+          "order": 0,
+          "action": "href https://www.facebook.com/marketplace/melbourne"
+        }
+      ]
+    },
+    {
+      "color": "#823292",
+      "name": "music",
+      "shortcut": "s",
+      "weight": 100,
+      "menu": {
+        "color": "#b98737",
+        "hide": false,
+        "href": "https://soundcloud.com",
+        "id": "soundcloud",
+        "name": "soundcloud",
+        "remote": false,
+        "shortcut": "c",
+        "weight": 100,
+        "action": "href https://soundcloud.com"
+      }
+    },
+    {
+      "color": "#204383",
+      "name": "learning",
+      "shortcut": "l",
+      "weight": 100,
+      "menu": {
+        "color": "#6b2d2d",
+        "hide": false,
+        "href": "https://udemy.com",
+        "id": "udemy",
+        "name": "udemy",
+        "remote": false,
+        "shortcut": "u",
+        "weight": 100,
+        "action": "href https://udemy.com"
+      }
+    }
+  ]
+}
+
